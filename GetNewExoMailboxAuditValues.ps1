@@ -20,6 +20,7 @@ $KnownValues = @(
                'PriorityCleanupDelete'
                'RecordDelete'
                'RemoveFolderPermissions'
+               # 'SearchQueryInitiated' # <-- UNCOMMENT THIS
                'Send'
                'SendAs'
                'SendOnBehalf'
