@@ -34,7 +34,7 @@ $KnownValues = @(
 try
 {
     # any mailbox name and audit value can be used, the following works as is
-    Set-Mailbox BABABOOEY -AuditOwner @{Add='BABABOOEY'} -ErrorAction Stop
+    Set-Mailbox BABABOOEY -AuditOwner BABABOOEY -ErrorAction Stop
 }
 catch
 {
